@@ -2,7 +2,7 @@
 
 An utility to convert Excel file to JSON with your desired template.
 
-## What is does?
+## What it does?
 This library helps to convert the excel data to JSON with your own templete.
 Currently it supports
 * simple key value mapping.
@@ -38,6 +38,36 @@ In your app component,
       console.log("received data ",jsonData);
     });`
    
+
+## Use Cases
+### Mapping without a Template
+![Mappingwithoutatemplate](https://www.thyagajan.in/myassets/excel-json/images/no_template.png)
+
+### Simple Key Value Mapping
+![KeyValueMapping](https://www.thyagajan.in/myassets/excel-json/images/simple_key_mapping.png)
+### Multiple Key Value Mapping
+![MultipleKeyValueMapping](https://www.thyagajan.in/myassets/excel-json/images/multiple_key_mappings.png)
+
+### Multiple Keys as Object
+![MultipleKeysasObject](https://www.thyagajan.in/myassets/excel-json/images/mappings_as_object.png)
+
+### Simple List
+![SimpleList](https://www.thyagajan.in/myassets/excel-json/images/simple_list.png)
+
+### List Of Objects
+![listOfObjects](https://www.thyagajan.in/myassets/excel-json/images/List_of_objects.png)
+
+### Multiple Tab/Sheets
+![MultipleTabExcel](https://www.thyagajan.in/myassets/excel-json/images/different_tab_excel.png)
+
+![MultipleTabJSON](https://www.thyagajan.in/myassets/excel-json/images/different_tab_json.png)
+
+### Real Life Example
+![RealLifeExampleExcel](https://www.thyagajan.in/myassets/excel-json/images/imdb_excel.png)
+![RealLifeExampleTemplate](https://www.thyagajan.in/myassets/excel-json/images/imdb_template.png)
+![RealLifeExampleOutput](https://www.thyagajan.in/myassets/excel-json/images/imdb_output.png)
+
+
 
 
 
