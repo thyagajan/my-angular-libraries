@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "excel-to-json-with-template": [
+        "dist/excel-to-json-with-template"
+      ],
+      "excel-to-json-with-template/*": [
+        "dist/excel-to-json-with-template/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
