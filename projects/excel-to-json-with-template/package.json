@@ -1,0 +1,11 @@
+{
+  "name": "excel-to-json-with-template",
+  "version": "0.0.1",
+  "author": "Thiyagarajan Nagaraj",
+  "description" : "A library to convert the excel to JSON format with a simple or complex desired template",
+  "keywords": ["excel","json","template"],
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  }
+}
