@@ -6,5 +6,8 @@
     "umdModuleIds": {
       "xlsx":"xlsx"
     }
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "xlsx"
+  ]
 }
