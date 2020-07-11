@@ -1,9 +1,17 @@
 {
   "name": "excel-to-json-with-template",
-  "version": "0.0.4",
-  "author": "Thiyagarajan Nagaraj",
+  "version": "0.0.5",
+  "author": "Thiyagarajan Nagaraj thyagajan@gmail.com https://thyagajan.in",
   "description" : "A library to convert the excel to JSON format with a simple or complex desired template",
   "keywords": ["excel","json","template"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thyagajan/excel-to-json-with-template.git"
+  },
+  "bugs": {
+    "email": "thyagajan@gmail.com",
+    "url": "https://github.com/thyagajan/excel-to-json-with-template/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0"
