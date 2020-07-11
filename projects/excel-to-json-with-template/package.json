@@ -6,11 +6,11 @@
   "keywords": ["excel","json","template"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/thyagajan/excel-to-json-with-template.git"
+    "url": "https://github.com/thyagajan/my-angular-libraries/tree/master/projects/excel-to-json-with-template"
   },
   "bugs": {
     "email": "thyagajan@gmail.com",
-    "url": "https://github.com/thyagajan/excel-to-json-with-template/issues"
+    "url": "https://github.com/thyagajan/my-angular-libraries/issues"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.0",
