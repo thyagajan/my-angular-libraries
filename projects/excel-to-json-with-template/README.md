@@ -13,7 +13,7 @@ Currently it supports
 * Multiple Sheets/Tabs.
 * complex JSON structure.
 
-### Installaton
+### Installation
 npm i excel-to-json-with-template
 
 ### User Interface
