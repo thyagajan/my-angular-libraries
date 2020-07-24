@@ -5,7 +5,7 @@
   "description" : "A library to convert the excel to JSON format with a simple or complex desired template",
   "keywords": ["excel","json","template"],
   "license": "Apache-2.0",
-  "homepage": "https://thyagajan.in",
+  "homepage": "https://www.thyagajan.in",
   "repository": {
     "type": "git",
     "url": "https://github.com/thyagajan/my-angular-libraries"
