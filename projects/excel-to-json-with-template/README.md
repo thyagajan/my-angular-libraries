@@ -1,6 +1,6 @@
 # ExcelToJsonWithTemplate
 
-An utility to convert Excel file to JSON with your desired template.
+An NPM library which can be used in Angular project to convert Excel file to JSON with your desired custom template.
 
 ## What it does?
 This library helps to convert the excel data to JSON with your own templete.
@@ -13,8 +13,12 @@ Currently it supports
 * Multiple Sheets/Tabs.
 * complex JSON structure.
 
-### Installaton
+### Installation
 npm i excel-to-json-with-template
+
+### User Interface
+An simple user interface which is developed in Angular framework available in the below link. This project can be imported and used on your hosting server.
+https://github.ibm.com/tnagaraj/excel-to-json
 
 ### Usage
 In your app component,
