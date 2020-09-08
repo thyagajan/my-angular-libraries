@@ -37,6 +37,41 @@
           }
         }
       }
+    },
+    "case-transform": {
+      "projectType": "library",
+      "root": "projects/case-transform",
+      "sourceRoot": "projects/case-transform/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/case-transform/tsconfig.lib.json",
+            "project": "projects/case-transform/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/case-transform/src/test.ts",
+            "tsConfig": "projects/case-transform/tsconfig.spec.json",
+            "karmaConfig": "projects/case-transform/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/case-transform/tsconfig.lib.json",
+              "projects/case-transform/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "excel-to-json-with-template"
 }
