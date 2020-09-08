@@ -1,24 +1,14 @@
 # CaseTransform
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+This library helps to transform the case to UPPER or LOWER while typing on the reactive input field for Angular components.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name --project case-transform` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project case-transform`.
-> Note: Don't forget to add `--project case-transform` or else it will be added to the default project in your `angular.json` file. 
+1. copy the source case-transform.directive.ts to your project.
+2. import the directive in your desired module.
+3. In your app component, add the directive "appInputTransformCase" as follows
 
-## Build
+   `<input matInput name="firstName" formControlName="firstName" appInputTransformCase="upper"> <!--toconvert to upper case --> `
+   
+   `<input matInput name="lastName" formControlName="lastName" appInputTransformCase="lower"> <!--toconvert to lower case -->`
 
-Run `ng build case-transform` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build case-transform`, go to the dist folder `cd dist/case-transform` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test case-transform` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
