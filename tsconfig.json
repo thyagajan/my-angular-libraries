@@ -24,6 +24,12 @@
       ],
       "excel-to-json-with-template/*": [
         "dist/excel-to-json-with-template/*"
+      ],
+      "case-transform": [
+        "dist/case-transform"
+      ],
+      "case-transform/*": [
+        "dist/case-transform/*"
       ]
     }
   },
